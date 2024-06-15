@@ -1,6 +1,10 @@
 # ANTONIO NOTES
-- Added integration with a circuit simulator so that four_coupler can be ran
+- Added integration with a circuit simulator (JoSim) so that four_coupler can be ran
 - Added environment_windows.yml so that you can setup environment on windows with conda env create -f environment.yml
+- For JoSim also need to do: conda install fftw cmake compilers -c conda-forge
+    --Also may need to do both: echo 'export PATH=/workspaces/SCILLA_fork/JoSIM/build:$PATH' >> ~/.bashrc
+                           source ~/.bashrc
+
 
 # SCILLA
 
