@@ -1,3 +1,7 @@
+# ANTONIO NOTES
+- Added integration with a circuit simulator so that four_coupler can be ran
+- Added environment_windows.yml so that you can setup environment on windows with conda env create -f environment.yml
+
 # SCILLA
 
 SCILLA is a software for automated discovery of superconducting circuits.
