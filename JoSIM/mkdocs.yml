@@ -1,0 +1,56 @@
+site_name: JoSIM Documentation
+repo_url: https://github.com/JoeyDelp/JoSIM
+repo_name: JoeyDelp/JoSIM
+site_author: Johannes Delport
+edit_uri: ""
+nav:
+  - Home: 'index.md'
+  - Technical Discussion: 'tech_disc.md'
+  - Example Usage: 'ex_usage.md'
+  - Component Stamps: 'comp_stamps.md'
+  - Syntax Guide: 'syntax.md'
+  - Development Schedule and Bugs: 'bugs.md'
+  - Japanese 日本語版:
+    - Home: 'jp/index_jp.md'
+    - 技術的な議論: 'jp/tech_disc_jp.md'
+    - 使用例: 'jp/ex_usage_jp.md'
+    - 素子のスタンプ: 'jp/comp_stamps_jp.md'
+    - 文法ガイド: 'jp/syntax_jp.md'
+    - 開発スケジュール・バグ報告: 'jp/bugs_jp.md'
+theme: 
+  name: material
+  palette:
+    scheme: preference
+    primary: black
+  highlightjs: true
+  hljs_languages:
+    - bash
+    - c++
+    - python
+  favicon: img/favicon.ico
+  logo: img/favicon.ico
+  features:
+    - toc.integrate
+    - header.autohide
+  icon:
+    repo: fontawesome/brands/github-alt
+markdown_extensions:
+  - attr_list
+  - footnotes
+  - pymdownx.arithmatex:
+        generic: true
+  - pymdownx.highlight:
+        linenums: false
+  - pymdownx.superfences
+extra_javascript: 
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+extra:
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/JoeyDelp
+          name: JoeyDelp on GitHub
+
+copyright: Copyright &copy; 2022 Johannes Delport
